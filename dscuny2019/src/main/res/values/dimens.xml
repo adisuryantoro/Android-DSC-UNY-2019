@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Horizontal Resource Dimens -->
+    <dimen name="horizontal_margin_sixteen">16dp</dimen>
+    <dimen name="horizontal_margin_thirty">30dp</dimen>
+    <dimen name="horizontal_margin_forty">40dp</dimen>
+    <dimen name="horizontal_margin_eight">8dp</dimen>
+    <dimen name="horizontal_margin_four">4dp</dimen>
+    <dimen name="horizontal_margin_two">2dp</dimen>
+    <dimen name="horizontal_margin_onehundred_eighty">180dp</dimen>
+
+    <!--Vertical Resource Dimens -->
+    <dimen name="vertical_margin_eight">8dp</dimen>
+    <dimen name="vertical_margin_thirty">30dp</dimen>
+    <dimen name="vertical_margin_thirty_four">34dp</dimen>
+    <dimen name="vertical_margin_forty">40dp</dimen>
+    <dimen name="vertical_margin_sixteen">16dp</dimen>
+    <dimen name="vertical_margin_six">6dp</dimen>
+    <dimen name="vertical_margin_teen">10dp</dimen>
+    <dimen name="vertical_margin_twenty">24dp</dimen>
+    <dimen name="vertical_margin_four">4dp</dimen>
+    <dimen name="vertical_margin_two">2dp</dimen>
+    <dimen name="vertical_margin_onehundred_eighty">180dp</dimen>
+    <dimen name="vertical_margin_onehundred">100dp</dimen>
+    <dimen name="vertical_margin_onehundred_twenty">120dp</dimen>
+    <dimen name="vertical_margin_onehundred_forty">140dp</dimen>
+    <dimen name="vertical_margin_onehundredsixty">160dp</dimen>
+
+    <!--Height Resource Dimens -->
+    <dimen name="height_margin_thirty_five">35dp</dimen>
+    <dimen name="height_margin_button">50dp</dimen>
+    <dimen name="height_margin_edittext">45dp</dimen>
+    <dimen name="height_margin_forty">40dp</dimen>
+    <dimen name="height_margin_eighty">80dp</dimen>
+    <dimen name="height_margin_forty_four">44dp</dimen>
+    <dimen name="height_margin_onehundred">100dp</dimen>
+    <dimen name="height_margin_onehundred_twenty">120dp</dimen>
+
+    <!--Width Resource Dimens -->
+    <dimen name="width_margin_thirty_five">35dp</dimen>
+    <dimen name="width_margin_button">50dp</dimen>
+    <dimen name="width_margin_edittext">45dp</dimen>
+    <dimen name="width_margin_forty">40dp</dimen>
+    <dimen name="width_margin_eighty">80dp</dimen>
+    <dimen name="width_margin_forty_four">44dp</dimen>
+    <dimen name="width_margin_onehundred">100dp</dimen>
+    <dimen name="width_margin_onehundred_twenty">120dp</dimen>
+
+    <!--Padding Resource Dimens -->
+    <dimen name="padding_margin_teen">10dp</dimen>
+
+    <!--Margin Resource Dimens -->
+    <dimen name="margin_margin_teen">10dp</dimen>
+    <dimen name="margin_margin_eight">8dp</dimen>
+    <dimen name="margin_margin_two">2dp</dimen>
+    <dimen name="margin_margin_four">4dp</dimen>
+    <dimen name="margin_margin_sixteen">16dp</dimen>
+
+    <!--Elevation Resource Dimens -->
+    <dimen name="elevation_four">4dp</dimen>
+
+    <!--Textsize Resource Dimens -->
+    <dimen name="textsize_twenty_four">24sp</dimen>
+    <dimen name="textsize_twenty">20sp</dimen>
+    <dimen name="textsize_fourteen">14sp</dimen>
+    <dimen name="textsize_twelve">12sp</dimen>
+    <dimen name="teztsize_fifty">50sp</dimen>
+    <dimen name="textsize_eighteen">18sp</dimen>
+    <dimen name="textsize_thirty_five">35sp</dimen>
+    <dimen name="textsize_thirty">30sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_activity_main_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:fontFamily="@font/quicksand_bold"
+        android:gravity="center"
+        android:text="@string/string_recyclerview_dsc"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize_twenty_four"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_activity_main_recylerview_mode_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_margin_button"
+        android:layout_marginLeft="@dimen/horizontal_margin_forty"
+        android:layout_marginTop="@dimen/vertical_margin_twenty"
+        android:layout_marginRight="@dimen/horizontal_margin_forty"
+        android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+        android:background="@drawable/background_border_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_recyclerview_list"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_activity_main_recyclerview" />
+
+    <Button
+        android:id="@+id/btn_activity_main_recylerview_mode_grid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_margin_button"
+        android:layout_marginLeft="@dimen/horizontal_margin_forty"
+        android:layout_marginTop="@dimen/vertical_margin_twenty"
+        android:layout_marginRight="@dimen/horizontal_margin_forty"
+        android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+        android:background="@drawable/background_border_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_recyclerview_grid"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_activity_main_recylerview_mode_list" />
+
+    <Button
+        android:id="@+id/btn_activity_main_recylerview_mode_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_margin_button"
+        android:layout_marginLeft="@dimen/horizontal_margin_forty"
+        android:layout_marginTop="@dimen/vertical_margin_twenty"
+        android:layout_marginRight="@dimen/horizontal_margin_forty"
+        android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+        android:background="@drawable/background_border_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_recyclerview_cardview"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_activity_main_recylerview_mode_grid" />
+
+    <Button
+        android:id="@+id/btn_activity_main_logout"
+        android:layout_width="@dimen/horizontal_margin_onehundred_eighty"
+        android:layout_height="@dimen/height_margin_button"
+        android:layout_marginLeft="@dimen/horizontal_margin_forty"
+        android:layout_marginTop="@dimen/vertical_margin_twenty"
+        android:layout_marginRight="@dimen/horizontal_margin_forty"
+        android:layout_marginBottom="@dimen/vertical_margin_sixteen"
+        android:background="@drawable/background_full_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_logout"
+        android:textColor="@color/colorIconsText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

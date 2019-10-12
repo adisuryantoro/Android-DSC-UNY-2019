@@ -1,0 +1,2 @@
+include ':app', ':dscuny2019'
+rootProject.name='DSC UNY 2019'

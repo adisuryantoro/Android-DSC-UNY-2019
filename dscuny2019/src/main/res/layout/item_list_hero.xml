@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_item_list_hero_image"
+        android:layout_width="@dimen/height_margin_onehundred"
+        android:layout_height="@dimen/width_margin_onehundred"
+        android:layout_margin="@dimen/margin_margin_sixteen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logo_adi_suryantoro"/>
+
+    <TextView
+        android:id="@+id/tv_item_list_hero_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/horizontal_margin_sixteen"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:layout_marginEnd="@dimen/horizontal_margin_sixteen"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_dsc_uny_2019"
+        android:textSize="@dimen/textsize_eighteen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_item_list_hero_image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_item_list_hero_birthday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin_teen"
+        android:text="@string/string_dsc_uny_2019"
+        app:layout_constraintEnd_toEndOf="@id/tv_item_list_hero_title"
+        app:layout_constraintStart_toStartOf="@id/tv_item_list_hero_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_list_hero_title" />
+
+    <Button
+        android:id="@+id/btn_item_list_hero_detail"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_margin_forty"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:background="@drawable/background_full_blue"
+        android:fontFamily="@font/quicksand_bold"
+        android:text="@string/string_detail"
+        android:textAllCaps="false"
+        android:textColor="@color/colorIconsText"
+        android:textSize="@dimen/textsize_eighteen"
+        app:layout_constraintEnd_toEndOf="@id/tv_item_list_hero_title"
+        app:layout_constraintStart_toStartOf="@id/tv_item_list_hero_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_list_hero_birthday" />
+</androidx.constraintlayout.widget.ConstraintLayout>
