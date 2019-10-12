@@ -27,8 +27,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:text="@string/string_dsc_uny_2019"
-            android:textColor="@color/colorPrimaryText"
-            android:textSize="@dimen/textsize_twenty_four" />
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/textsize_thirty_five" />
 
     </LinearLayout>
 
